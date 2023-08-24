@@ -14,7 +14,7 @@
 */
 
 export const gameDetails = {   
-    title: 'Game Title',
+    title: 'the Best Zonkington Ever Made',
     desc: 'Welcome to the world of... here are some quick rules & concepts...',
     author: 'Student Name',
     cohort: 'SBPT-2022',
@@ -29,7 +29,7 @@ export const gameDetails = {
 
 // Your code here
 
-export const domDisplay = (playerInput) => {
+export const domDisplay = (playerInput) => { asaaaaaaaaa
     /* 
         TODO: for students
         - This function must return a string. 
