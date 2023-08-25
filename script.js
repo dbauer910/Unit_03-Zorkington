@@ -29,8 +29,19 @@ export const gameDetails = {
 
 // Your code here
 
-export const domDisplay = (playerInput) => { asaaaaaaaaa
-    /* 
+//! Make a class of room with exits, descriptions, and items (which are arrays).
+
+// Make different instance of room classes
+
+// then make item class, different instances of itmes needed [see cookie notes]
+
+
+
+
+
+
+export const domDisplay = (playerInput) => { 
+    
         TODO: for students
         - This function must return a string. 
         - This will be the information that is displayed within the browsers game interface above the users input field.
