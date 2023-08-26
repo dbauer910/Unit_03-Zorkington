@@ -31,12 +31,42 @@ export const gameDetails = {
 
 //! Make a class of room with exits, descriptions, and items (which are arrays).
 
+class room {
+    constructor(exit, description, items) {
+        this.exit = exit;
+        this.description = description;
+        this.items = [];
+    }
+
+    listOfItems (newItems) {
+        this.items.push(newItems);
+        console.log('New items added to "Items" list');
+    }
+}
+
 // Make different instance of room classes
+
+let bathroom = new room("Window, Door", "Gross, crowded", "Sink, toilet, urinal");
+let kitchen = new room("Back porch screen door", "cozy, welcoming, inviting", "rolling pan, pots, knives, salt shakers");
+let diningRoom = new room("Front door", "comfortable, formal", "plates, candles, utensils");
+
+console.log(bathroom);
+console.log(typeof room.items);
+
 
 // then make item class, different instances of itmes needed [see cookie notes]
 
+class items {
+    constructor(weapon, tool) {
+    this.weapon = weapon
+    this.tool = tool
+}
+}
 
+let useless = new items("paper towel roll", "fly-swatter");
+let useful = new items("knife", "wrench");
 
+//* Truthfully, I don't think I got this last part correct. I wasn't sure if you wanted me to do anything beyond just making a new item class, or whether 'making different instances of items' here meant doing a similar thing to what I did on lines 49-51 (making new instances of a class). I did the latter on lines 66-67, but it felt like I was merely repeating a previous action here, and feel like there's something more the assigment was looking for.
 
 
 
