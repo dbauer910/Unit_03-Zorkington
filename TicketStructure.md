@@ -92,7 +92,7 @@ After completing a ticket, *before* starting on the next ticket:
 
 - Attempt to play your game through the browser.
 - Work through each process that each ticket is requiring.
-- If it does at intended, move on.
+- If it does as intended, move on.
 - Make it functional first - then make it fun!
 
 ---
